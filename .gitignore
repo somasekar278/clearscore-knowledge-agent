@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment
+.deploy-tmp/
+*.zip
+
+# Logs
+*.log
+
+# Test files (temporary)
+test_*.py
+
+# Node modules (if any)
+node_modules/
+
+# Databricks
+.databricks/
+
+# Temporary files
+*.tmp
+

@@ -1,0 +1,20 @@
+command: [
+  "python", 
+  "app.py"
+]
+
+env:
+  - name: "SERVING_ENDPOINT"
+    # ClearScore customer service agent endpoint
+    value: "ka-6859840b-endpoint"
+    # Alternatively, use this format for automatic endpoint binding:
+    # valueFrom: "serving-endpoint"
+
+# Optional: Bind to a specific serving endpoint resource
+# This allows Databricks Apps to automatically manage permissions
+# resources:
+#   serving-endpoints:
+#     - name: serving-endpoint
+#       endpoint: mas-691e9159-endpoint
+#       permission: CAN_QUERY
+
